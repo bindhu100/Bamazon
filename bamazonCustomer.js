@@ -23,7 +23,7 @@ var connection = mysql.createConnection({
 connection.connect(function (err) {
   if (err) throw err;
 
-  console.log(chalk.bold.bgBlueBright.white("\n WELCOME TO BAMAZON ! See Something New, Every Day !!! \n"));
+  console.log(chalk.bold.bgBlue.white("\n WELCOME TO BAMAZON ! See Something New, Every Day !!! \n"));
   // console.log(chalk.bold.bgCyanBright.white("\n SEE SOMETHING NEW, EVERY DAY \n"));
   allProducts();
 });
@@ -35,34 +35,14 @@ function allProducts() {
     console.table(res);
     // ************************************************
 
-    // for (var i = 0; i < res.length; i++) {
-    //   console.table({'Product ID':res[i].item_id,
-    //    'Product Name':res[i]. product_name,
-    //    'Department':res[i].department_name,
-    //     'Price':res[i].price,
-    //     'Quantity': res[i].stock_quantity,});
-    // }
+   
 
     // *************************************
     selectProduct();
   })
 }
 
-// function  selectProduct() {
-//   // query the database for all items for sale
-//   connection.query("SELECT * from products;", function (err, results, fields) {
-//     if (err) throw err;
-//     else {
-//       // console log all products
-//       console.table(results);
 
-//     }
-//     pickProduct();
-
-//   }
-
-//   )
-// }
 
 
 function selectProduct() {
@@ -76,12 +56,7 @@ function selectProduct() {
       },
 
       // *******************8
-      // {
-      //   name: "product",
-      //   // type: "input",
-      //   message: console.log("We have " + kk + " " + ll + "s in stock for your order!")
-
-      // },
+    
       // *************
       {
         name: "quantity",
@@ -117,18 +92,19 @@ function selectProduct() {
             console.log("");
             console.log(chalk.blueBright("We have " + quantity + " " + productInfo.product_name + " in stock for your order!"))
             console.log("");
-            console.log("");
-            console.log(chalk.magenta("Thank you for your order!"));
-            console.log("");
+            // console.log("");
+            // console.log(chalk.magenta("Thank you for your order!"));
+            // console.log("");
           }
           if (cost = quantity * productInfo.price) {
             console.log("");
             console.log(chalk.greenBright("The total cost of your order is $" + cost + ".00"));
             console.log("");
+            console.log(chalk.magenta("Thank you for your order!"));
           }
 
           var queryUpdate = "UPDATE products SET ? WHERE ?"
-          connection.query(queryUpdate, [{ stock_quantity: answer.quantity }, { item_id: product }], function (err, res) {
+          connection.query(queryUpdate, [{ stock_quantity: productInfo.stock_quantity -quantity }, { item_id: product }], function (err, res) {
             if (err) throw err;
             else {
               console.log("");
@@ -143,9 +119,24 @@ function selectProduct() {
                   message: (chalk.blueBright('Would you like to place another order (Yes/No)?')),
                 })
                 .then(function (answer) {
-                  if (answer.next === "Yes") {
+                  if (answer.next.toLowerCase() === "yes") {
                     allProducts();
                   } else {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     connection.end()
                     console.log("");
                     console.log(chalk.green("Thank you for shopping with us! Come back soon!"))
