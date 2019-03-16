@@ -30,6 +30,7 @@ connection.connect(function (err) {
 
 function allProducts() {
   // to display all data from database
+ 
   connection.query("SELECT * FROM products", function (err, res) {
     if (err) throw err;
     console.table(res);
