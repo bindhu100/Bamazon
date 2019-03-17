@@ -89,7 +89,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <li>Once customer place the order, app should ask "Would you like to place another order (Yes/No)?"
 </ol>
 
-![GitHub Logo](image/)
+![GitHub Logo](image/yes_or_no.PNG)
 
 <ol>
 <ul>
