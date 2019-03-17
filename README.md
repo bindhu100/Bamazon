@@ -96,7 +96,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 
 <ol start="4">
-<li>If store doesn't have enough of the product to fulfill the customer's order, app should log a phrase like "Sorry! we don't have enough in stock, please choose a smaller quantity!", and then prevent the order from going through.</li>
+<li>If store doesn't have enough of the product to fulfill the customer's order, app should log a phrase like "Sorry! we don't have enough in stock, please choose a smaller quantity!", and then prevent the order from going through. And app should allow customer to select another product.</li>
 </ol>
 
 ![GitHub Logo](image/notEnough.PNG)
