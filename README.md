@@ -84,3 +84,34 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 </ol>
 
 ![GitHub Logo](image/notEnough.PNG)
+
+<ol start="5">
+<li>Once customer place the order, app should ask "Would you like to place another order (Yes/No)?"
+</ol>
+
+![GitHub Logo](image/)
+
+<ol>
+<ul>
+<li>If the user enter "Yes" </li>
+<ul>
+<li>Should display all of the items available for sale and</li>
+<li>App should ask "What is the item_id of the product you would like to buy?"</li>
+</ul>
+</ul>
+</ol>
+
+![GitHub Logo](image/yes.PNG)
+
+
+<ol>
+<ul>
+<li>If the user enter "No" </li>
+<ul>
+<li>App should log a phrase like "Thank you for shopping with us! Come back soon!"</li>
+</ul>
+</ul>
+</ol>
+
+
+![GitHub Logo](image/no.PNG)
