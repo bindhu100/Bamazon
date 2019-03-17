@@ -1,6 +1,6 @@
 <!-- # Bamazon -->
 <!-- <h1>:b: BAMAZON :boom: *See Something New, Every Day*:exclamation: </h1> -->
- <div><h1> BAMAZON </h1>*See Something New, Every Day*:exclamation:</div> 
+<h1>BAMAZON <small>See Something New, Every Day:exclamation:</small> Formatting</h1>
 <h3>Built With</h3>
 
 <ul>
