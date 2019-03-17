@@ -20,3 +20,13 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <li>The second message should ask how many units of the product they would like to buy.</li>
 </ul>
 ![GitHub Logo](image/)
+
+<ol start="3">
+<li>Once the customer has placed the order, application should check if store has enough of the product to meet the customer's request.</li>
+ <li>If store does have enough of the product, app should fulfill the customer's order.</li>
+ <ul>
+ <li>This means updating the SQL database to reflect the remaining quantity.</li>
+ <li>Once the update goes through, show the customer the total cost of their purchase.</li>
+ </ul>
+</ol>
+
