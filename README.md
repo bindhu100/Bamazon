@@ -1,5 +1,4 @@
-<!-- # Bamazon -->
-<!-- <h1>:b: BAMAZON :boom: *See Something New, Every Day*:exclamation: </h1> -->
+
 <h1>:b:BAMAZON :small_blue_diamond:<small>See Something New, Every Day:exclamation:</small></h1>
 <h3>Built With</h3>
 
@@ -25,11 +24,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <li> Create a Node application called bamazonCustomer.js. Running this application will first display all of the items available for sale.</li>
 </ol>
 
-<!-- ![GitHub Logo](image/All_items.jpg) -->
 
-
-
-<!-- ![GitHub Logo](allProducts.PNG) -->
 
 
 ![GitHub Logo](image/allProducts.PNG)
@@ -40,11 +35,6 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <ol start="2">
 <li>The app should then prompt users with two messages.</li>
 
-<!-- <li>The first should ask them the ID of the product they would like to buy.</li>
-![GitHub Logo](image/)
-<li>The second message should ask how many units of the product they would like to buy.</li>
-![GitHub Logo](image/question)
-</ul> -->
 </ol>
 
 
@@ -68,15 +58,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 ![GitHub Logo](image/question.PNG)
 
-<!-- <ul>
-<li>The first should ask them the ID of the product they would like to buy.</li>
-</ul> -->
-<!-- ![GitHub Logo](image/)
 
-<ul>
-<li>The second message should ask how many units of the product they would like to buy.</li>
-</ul>
-![GitHub Logo](image/) -->
 
 <ol start="3">
 <li>Once the customer has placed the order, application should check if store has enough of the product to meet the customer's request.</li>
