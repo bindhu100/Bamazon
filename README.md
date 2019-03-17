@@ -69,7 +69,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 
  <ul>
- <li>SQL database should update  reflect the remaining quantity.</li>
+ <li>SQL database should reflect the remaining quantity.</li>
  <li>Once the update goes through, show the customer the total cost of their purchase.</li>
  </ul>
  </ul>
@@ -79,4 +79,8 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 ![GitHub Logo](image/orderComplete.PNG)
 
 
+<ol start="4">
+<li>If store does have enough of the product to fulfill the customer's order, app should log a phrase like "Insufficient quantity!", and then prevent the order from going through.</li>
+</ol>
 
+![GitHub Logo](image/notEnough.PNG)
