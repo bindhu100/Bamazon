@@ -69,9 +69,14 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 
  <ul>
- <li>This means updating the SQL database to reflect the remaining quantity.</li>
+ <li>SQL database should update  reflect the remaining quantity.</li>
  <li>Once the update goes through, show the customer the total cost of their purchase.</li>
  </ul>
  </ul>
 </ol>
+
+
+![GitHub Logo](image/orderComplete.PNG)
+
+
 
