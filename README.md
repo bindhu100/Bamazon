@@ -15,6 +15,8 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <li> Create a Node application called bamazonCustomer.js. Running this application will first display all of the items available for sale.</li>
 </ol>
 <!-- ![GitHub Logo](image/All_items.jpg) -->
+
+
 ![GitHub Logo](image/allitems.jpg)
 
 
