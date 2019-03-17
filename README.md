@@ -1,5 +1,5 @@
 <!-- # Bamazon -->
-<h1>:b: Bamazon</h1><h5>See Something New, Every Day:exclamation: </h5>
+<h1>:b: Bamazon <h5>See Something New, Every Day:exclamation: </h5></h1>
 <h3>Built With</h3>
 
 <ul>
@@ -10,6 +10,7 @@
 <h3>Overview</h3> 
 In this activity, creating an Amazon-like storefront with the MySQL. The app will take in orders from customers and deplete stock from the store's inventory. 
 <ol>
+
 </ol>
 
 
