@@ -18,7 +18,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <!-- ![GitHub Logo](image/All_items.jpg) -->
 
 
-![GitHub Logo](image/allProducts.PNG)
+![GitHub Logo](allProducts.PNG)
 
 
 <ol start="2">
