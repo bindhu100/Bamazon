@@ -13,7 +13,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <h3>Customer View Requirement</h3>
 <ol>
 <li> Create a Node application called bamazonCustomer.js. Running this application will first display all of the items available for sale.</li>
-![GitHub Logo](image/songs.jpg)
+![GitHub Logo](image/All_items.jpg)
 </ol>
 
 
@@ -46,4 +46,3 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
  </ul>
 </ol>
 
-Built With
