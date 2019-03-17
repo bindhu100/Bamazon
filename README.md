@@ -20,7 +20,12 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 
 
+
+
+
 ![GitHub Logo](image/output_HvbGoD.mp4)
+
+
 
 
 <h3>Customer View Requirement</h3>
