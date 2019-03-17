@@ -11,15 +11,23 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 <ol start="2">
 <li>The app should then prompt users with two messages.</li>
-</ol>
 <ul>
 <li>The first should ask them the ID of the product they would like to buy.</li>
-</ul>
 ![GitHub Logo](image/)
+<li>The second message should ask how many units of the product they would like to buy.</li>
+![GitHub Logo](image/)
+</ul>
+</ol>
+
+<!-- <ul>
+<li>The first should ask them the ID of the product they would like to buy.</li>
+</ul> -->
+<!-- ![GitHub Logo](image/)
+
 <ul>
 <li>The second message should ask how many units of the product they would like to buy.</li>
 </ul>
-![GitHub Logo](image/)
+![GitHub Logo](image/) -->
 
 <ol start="3">
 <li>Once the customer has placed the order, application should check if store has enough of the product to meet the customer's request.</li>
