@@ -22,13 +22,34 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 <ol start="2">
 <li>The app should then prompt users with two messages.</li>
-<ul>
-<li>The first should ask them the ID of the product they would like to buy.</li>
+
+<!-- <li>The first should ask them the ID of the product they would like to buy.</li>
 ![GitHub Logo](image/)
 <li>The second message should ask how many units of the product they would like to buy.</li>
-![GitHub Logo](image/)
+![GitHub Logo](image/question)
+</ul> -->
+</ol>
+
+
+<ol> 
+<ul>
+<li>The first should ask them the ID of the product they would like to buy.</li>
 </ul>
 </ol>
+
+
+
+![GitHub Logo](image/)
+
+
+<ol> 
+<ul>
+<li>The second message should ask how many units of the product they would like to buy.</li>
+
+</ul>
+</ol>
+
+![GitHub Logo](image/question.PNG)
 
 <!-- <ul>
 <li>The first should ask them the ID of the product they would like to buy.</li>
