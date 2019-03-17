@@ -19,6 +19,10 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 
 
+
+![GitHub Logo](image/output_HvbGoD.mp4)
+
+
 <h3>Customer View Requirement</h3>
 <ol>
 <li> Create a Node application called bamazonCustomer.js. Running this application will first display all of the items available for sale.</li>
@@ -102,7 +106,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 ![GitHub Logo](image/notEnough.PNG)
 
 <ol start="5">
-<li>Once customer place the order, app should ask "Would you like to place another order (Yes/No)?"
+<li>Once customer place an order, app should ask "Would you like to place another order (Yes/No)?"
 </ol>
 
 ![GitHub Logo](image/yes_or_no.PNG)

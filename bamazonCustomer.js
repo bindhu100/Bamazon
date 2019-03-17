@@ -24,21 +24,17 @@ connection.connect(function (err) {
   if (err) throw err;
 
   console.log(chalk.bold.bgBlue.white("\n WELCOME TO BAMAZON ! See Something New, Every Day !!! \n"));
-  // console.log(chalk.bold.bgCyanBright.white("\n SEE SOMETHING NEW, EVERY DAY \n"));
+
   allProducts();
 });
 
 function allProducts() {
   // to display all data from database
- 
+
   connection.query("SELECT * FROM products", function (err, res) {
     if (err) throw err;
     console.table(res);
-    // ************************************************
 
-   
-
-    // *************************************
     selectProduct();
   })
 }
@@ -56,9 +52,7 @@ function selectProduct() {
 
       },
 
-      // *******************8
-    
-      // *************
+
       {
         name: "quantity",
         type: "input",
@@ -93,9 +87,7 @@ function selectProduct() {
             console.log("");
             console.log(chalk.blueBright("We have " + quantity + " " + productInfo.product_name + " in stock for your order!"))
             console.log("");
-            // console.log("");
-            // console.log(chalk.magenta("Thank you for your order!"));
-            // console.log("");
+
           }
           if (cost = quantity * productInfo.price) {
             console.log("");
@@ -105,7 +97,7 @@ function selectProduct() {
           }
 
           var queryUpdate = "UPDATE products SET ? WHERE ?"
-          connection.query(queryUpdate, [{ stock_quantity: productInfo.stock_quantity -quantity }, { item_id: product }], function (err, res) {
+          connection.query(queryUpdate, [{ stock_quantity: productInfo.stock_quantity - quantity }, { item_id: product }], function (err, res) {
             if (err) throw err;
             else {
               console.log("");
@@ -124,20 +116,6 @@ function selectProduct() {
                     allProducts();
                   } else {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     connection.end()
                     console.log("");
                     console.log(chalk.green("Thank you for shopping with us! Come back soon!"))
@@ -146,11 +124,9 @@ function selectProduct() {
 
                 });
 
-
             }
           })
         }
-
 
       })
 
