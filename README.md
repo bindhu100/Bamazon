@@ -11,10 +11,16 @@
 In this activity, creating an Amazon-like storefront with the MySQL. The app will take in orders from customers and deplete stock from the store's inventory. 
 
 
+
+![GitHub Logo](image/Webp.net-gifmaker.gif)
+
+
+
 <h3>Customer View Requirement</h3>
 <ol>
 <li> Create a Node application called bamazonCustomer.js. Running this application will first display all of the items available for sale.</li>
 </ol>
+
 <!-- ![GitHub Logo](image/All_items.jpg) -->
 
 
@@ -22,7 +28,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <!-- ![GitHub Logo](allProducts.PNG) -->
 
 
-![GitHub Logo](image/allProducts.PNG)
+![GitHub Logo](image/question_1.PNG)
 
 
 
