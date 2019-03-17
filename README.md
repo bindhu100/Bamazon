@@ -19,7 +19,11 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 
 
-![GitHub Logo](allProducts.PNG)
+<!-- ![GitHub Logo](allProducts.PNG) -->
+
+
+![GitHub Logo](image/allProducts.PNG)
+
 
 
 
