@@ -17,7 +17,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 <!-- ![GitHub Logo](image/All_items.jpg) -->
 
 
-![GitHub Logo](image/allProducts.jpg)
+![GitHub Logo](image/allProducts.PNG)
 
 
 <ol start="2">
@@ -39,7 +39,7 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 
 
-![GitHub Logo](image/)
+![GitHub Logo](image/question_1.PNG)
 
 
 <ol> 
@@ -63,10 +63,15 @@ In this activity, creating an Amazon-like storefront with the MySQL. The app wil
 
 <ol start="3">
 <li>Once the customer has placed the order, application should check if store has enough of the product to meet the customer's request.</li>
+
+<ul>
  <li>If store does have enough of the product, app should fulfill the customer's order.</li>
+
+
  <ul>
  <li>This means updating the SQL database to reflect the remaining quantity.</li>
  <li>Once the update goes through, show the customer the total cost of their purchase.</li>
+ </ul>
  </ul>
 </ol>
 
