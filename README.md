@@ -1,6 +1,6 @@
 
-<!-- <h1>:b:BAMAZON :small_blue_diamond:<small>See Something New, Every Day:exclamation:</small></h1> -->
-<h1>:b:BAMAZON :small_blue_diamond:<small>See Something New, Every Day:bangbang:</small></h1>
+<h1>:b:BAMAZON :small_blue_diamond:<small>See Something New, Every Day:exclamation:</small></h1>
+
 <h3>Built With</h3>
 
 <ul>
